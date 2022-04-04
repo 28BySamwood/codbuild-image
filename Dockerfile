@@ -1,5 +1,5 @@
 # gets the docker image of ruby 2.5 and lets us build on top of that
-FROM ruby:2.5.1
+FROM ruby:2.7.0
 
 # install rails dependencies
 RUN touch /etc/apt/apt.conf.d/99fixbadproxy \
